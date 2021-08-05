@@ -45,34 +45,6 @@
 
     Lançamento do [ASP.NET](http://asp.NET) 4.6 e .NET core 1.0 - reescrito do zero open source e multi plataforma
 
-```jsx
-[ASP.NET](http://asp.NET) 4.6 
-```
-
-```jsx
-.NET framework 4.6
-```
-
-```jsx
-.NET framework libs
-```
-
-```jsx
-[ASP.NET](http://asp.NET) Core 1.0
-```
-
-```jsx
-.NET Core 1.0
-```
-
-```jsx
-.NET core libs
-```
-
-```jsx
-			Compilers and Runtime
-```
-
 - 2017 .NET framework 4.7 com C# 7.0 e .NET Core 2.0 com C# 7.0
 - 2019 .NET Framework 4.8 com C# 7.3 e .NET Core 3.0 com C# 8.0
 - 2020 .NET 5.0 👆
