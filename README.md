@@ -1,15 +1,15 @@
-### Bootcamp .NET + C#
+## Bootcamp .NET + C#
 
-## História do .NET
+### História do .NET
 
 - Em 1997 a microsoft cria visual studio 97 e a ideia de uma única ferramenta para trabalhar com diversas linguagens, ferramentas e runtimes.
 - Em 1999 foi criado o CLR de C++ e VB e o C# começou a ser elaborado .
 - Ano 2000 nasce o ambiente de desenvolvimeto .NET e em 2001 nasce o projeto Mono, uma reimplementação black box do .NET, open source e multi plataforma.
 - 2002 acontece o lançamento do Visual Studio .NET com C# 1.0, também conhecido como 22 linguagens, 1 plataforma, ex:
-- C#
-- C ++
-- VB
-- J#
+    - C#
+    - C ++
+    - VB
+    - J#
 
 - 2003 acontece o lançamento do .NET 1.1 com na nova CLR 2
 
@@ -49,5 +49,6 @@
 - 2019 .NET Framework 4.8 com C# 7.3 e .NET Core 3.0 com C# 8.0
 - 2020 .NET 5.0 👆
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28889b2d-7ea3-45ce-ac1f-2dbf0b723396/.net.png" />
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0024d0d-1199-42a0-892e-b96ad7b429ef/Untitled.png" />
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net.png" width="50%"/>
+<br />
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net5.png" width="50%" />
