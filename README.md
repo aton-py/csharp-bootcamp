@@ -6,10 +6,10 @@
 - Em 1999 foi criado o CLR de C++ e VB e o C# começou a ser elaborado .
 - Ano 2000 nasce o ambiente de desenvolvimeto .NET e em 2001 nasce o projeto Mono, uma reimplementação black box do .NET, open source e multi plataforma.
 - 2002 acontece o lançamento do Visual Studio .NET com C# 1.0, também conhecido como 22 linguagens, 1 plataforma, ex:
-- C#
-- C ++
-- VB
-- J#
+    - C#
+    - C ++
+    - VB
+    - J#
 
 - 2003 acontece o lançamento do .NET 1.1 com na nova CLR 2
 
