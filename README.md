@@ -49,5 +49,5 @@
 - 2019 .NET Framework 4.8 com C# 7.3 e .NET Core 3.0 com C# 8.0
 - 2020 .NET 5.0 👆
 
-<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net.png" width="50%" justify-content="center"/>
-<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net5.png" width="50%" justify-content="center"/>
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net.png" width="50%" align="center"/>
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/net5.png" width="50%" align="center"/>
