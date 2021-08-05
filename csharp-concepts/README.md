@@ -1,4 +1,4 @@
-## Principais conceitos organizacionais em C#
+## Principais conceitos organizacionais em C# 
 
 - Programas
 - namespaces
