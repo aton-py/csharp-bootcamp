@@ -49,6 +49,5 @@
 - 2019 .NET Framework 4.8 com C# 7.3 e .NET Core 3.0 com C# 8.0
 - 2020 .NET 5.0 👆
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28889b2d-7ea3-45ce-ac1f-2dbf0b723396/.net.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28889b2d-7ea3-45ce-ac1f-2dbf0b723396/.net.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0024d0d-1199-42a0-892e-b96ad7b429ef/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0024d0d-1199-42a0-892e-b96ad7b429ef/Untitled.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28889b2d-7ea3-45ce-ac1f-2dbf0b723396/.net.png" />
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0024d0d-1199-42a0-892e-b96ad7b429ef/Untitled.png" />
