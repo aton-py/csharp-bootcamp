@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "urlrLcM5FMXHA5U1x4g3v/GvGTQucYI6Ib33TvOQpRTvqA6BqJx7MFm2461FLOnMnGlZS8O+UiTYQWyHj7neyw==",
+  "success": true,
+  "projectFilePath": "/home/aton/src/dotnet/csharp-bootcamp/game-api/game-api.csproj",
+  "expectedPackageFiles": [
+    "/home/aton/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/aton/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/aton/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/aton/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/aton/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
