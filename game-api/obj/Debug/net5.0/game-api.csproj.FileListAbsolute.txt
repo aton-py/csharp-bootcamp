@@ -1,0 +1,7 @@
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.csproj.AssemblyReference.cache
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.GeneratedMSBuildEditorConfig.editorconfig
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.AssemblyInfoInputs.cache
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.AssemblyInfo.cs
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.csproj.CoreCompileInputs.cache
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.MvcApplicationPartsAssemblyInfo.cs
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.MvcApplicationPartsAssemblyInfo.cache

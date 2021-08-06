@@ -1,4 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using game_api.ViewModel;
+using game_api.InputModel;
+using game_api.Services;
+using Microsoft.AspNetCore.Http;
 
 namespace game_api.Controllers.V1
 {
@@ -6,40 +15,92 @@ namespace game_api.Controllers.V1
     [Route("api/V1/[controller]")]
     public class GameController : ControllerBase
     {
-        [HttpGet]
-        public async Task<ActionResult<List<object>>> Get()
+        private readonly IGameService _gameService;
+
+        public GameController(IGameService gameService)
         {
-            return Ok();
+            _gameService = gameService;
         }
 
-        [HttpGet("{gameId: guid}")]
-        public async Task<ActionResult<List<object>>> Get(Guid gameId)
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<GameViewModel>>> Get([FromQuery, Range(1, int.MaxValue)] int page = 1, [FromQuery, Range(1, 50)] int quantity = 5)
         {
-            return Ok();
+            var games = await _gameService.Get(page, quantity);
+
+            if (games.Count() == 0)
+                return NoContent();
+
+            return Ok(games);
+        }
+
+
+        [HttpGet("{gameId: guid}")]
+        public async Task<ActionResult<List<GameViewModel>>> Get([FromRoute] Guid gameId)
+        {
+            var game = await _gameService.Get(page, quantity);
+
+            if (game.Count() == 0)
+                return NoContent();
+
+            return Ok(game);
         }
 
         [HttpPost]
-        public async Task<ActionResult<object>> InsertGame(object game)
+        public async Task<ActionResult<GameViewModel>> InsertGame([FromBody] GameViewModel gameInputModel)
         {
-            return Ok();
+            try
+            {
+                var game = await _gameService.Insert(gameInputModel);
+
+                return Ok(game);
+            }
+            catch (GameAlreadyExistsException ex)
+            {
+                return UnprocessableEntity("There is already a game with this name in this Studio");
+            }
         }
 
         [HttpPut("{gameId: guid}")]
-        public async Task<ActionResult> UpdateGame(Guid gameId, object game)
+        public async Task<ActionResult> UpdateGame([FromRoute] Guid gameId, [FromBody] GameInputModel gameInputModel)
         {
-            return Ok();
+            try
+            {
+                await _gameService.Refresh(gameId, gameInputModel);
+                return Ok();
+            }
+            catch (GameNotFoundException ex)
+            {
+                return NotFound("This Game does not exist");
+            }
         }
 
         [HttpPatch("{gameId: guid}/{price:double}")]
-        public async Task<ActionResult> PatchGame(Guid gameId, double price)
+        public async Task<ActionResult> PatchGame([FromRoute] Guid gameId, [FromRoute] double price)
         {
-            return Ok();
+            try
+            {
+                await _gameService.Refresh(gameId, price);
+                return Ok();
+            }
+            catch (GameNotFoundException ex)
+            {
+                return NotFound("This Game does not exist");
+            }
         }
-        
+
         [HttpDelete("{gameId: guid}")]
         public async Task<AcceptedResult> DeleteGame(Guid gameId)
         {
-            return Ok();
+            try
+            {
+                await _gameService.Refresh(gameId);
+                return Ok();
+            }
+            catch (GameNotFoundException ex)
+            {
+                return NotFound("This Game does not exist");
+            }
         }
     }
 }
