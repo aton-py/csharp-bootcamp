@@ -37,9 +37,14 @@ namespace series_crud
             return this.Title;
         }
 
-        internal int returnId()
+        public int returnId()
         {
             return this.Id;
+        }
+
+        public bool returnExcluded()
+        {
+            return this.Excluded;
         }
 
         public void Delete()
