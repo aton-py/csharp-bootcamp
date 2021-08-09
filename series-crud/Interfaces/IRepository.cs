@@ -8,7 +8,7 @@ namespace series_crud.Interfaces
         T ReturnById(int id);
         void Insert(T entity);
         void Exclude(int id);
-        void Refresh(int id, T entity);
+        void Update(int id, T entity);
         int NextId();
     }
 }

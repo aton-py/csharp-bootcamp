@@ -21,7 +21,7 @@ namespace series_crud
                         InsertSeries();
                         break;
                     case "3":
-                        RefreshSeries();
+                        UpdateSeries();
                         break;
                     case "4":
                         DeleteSeries();
@@ -129,7 +129,7 @@ namespace series_crud
             return userOption;
         }
 
-        private static void RefreshSeries()
+        private static void UpdateSeries()
         {
             Console.Write("Digite o id da série: ");
 
@@ -158,7 +158,7 @@ namespace series_crud
                 year: yearEntry,
                 description: descriptionEntry);
 
-            repository.Refresh(serieIndex, refreshSeries);
+            repository.Update(serieIndex, refreshSeries);
         }
     }
 }

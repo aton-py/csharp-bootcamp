@@ -11,7 +11,7 @@ namespace game_api.Services
         Task<List<GameViewModel>> Get(int page, int quantity);
         Task<GameViewModel> Get(Guid id);
         Task<GameViewModel> Create(GameInputModel game);
-        Task Refresh(Guid id, double price);
+        Task Update(Guid id, double price);
         Task Remove(Guid id);
     }
 }

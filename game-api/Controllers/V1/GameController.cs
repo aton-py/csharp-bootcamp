@@ -67,7 +67,7 @@ namespace game_api.Controllers.V1
         {
             try
             {
-                await _gameService.Refresh(gameId, gameInputModel);
+                await _gameService.Update(gameId, gameInputModel);
                 return Ok();
             }
             catch (GameNotFoundException ex)
@@ -81,7 +81,7 @@ namespace game_api.Controllers.V1
         {
             try
             {
-                await _gameService.Refresh(gameId, price);
+                await _gameService.Update(gameId, price);
                 return Ok();
             }
             catch (GameNotFoundException ex)
@@ -95,7 +95,7 @@ namespace game_api.Controllers.V1
         {
             try
             {
-                await _gameService.Refresh(gameId);
+                await _gameService.Update(gameId);
                 return Ok();
             }
             catch (GameNotFoundException ex)

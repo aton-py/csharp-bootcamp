@@ -21,7 +21,7 @@ namespace series_crud
             return seriesList.Count;
         }
 
-        public void Refresh(int id, Series entity)
+        public void Update(int id, Series entity)
         {
             seriesList[id] = entity;
         }

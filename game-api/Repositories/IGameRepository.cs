@@ -12,7 +12,7 @@ namespace game_api.Repositories
         Task<Game> Get(int id);
         Task<List<Game>> Get(string name, string studio);
         Task Insert(Game game);
-        Task Refresh(Game game);
+        Task Update(Game game);
         Task Remove(Guid id);
     }
 }

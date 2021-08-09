@@ -40,7 +40,7 @@ namespace game_api.Repositories
         {
             var _return = new List<Game>();
 
-            foreach(var game in games.Values)
+            foreach (var game in games.Values)
             {
                 if (game.Name.Equals(name) && game.Studio.Equals(studio))
                     _return.Add(game);
@@ -55,7 +55,7 @@ namespace game_api.Repositories
             return Task.CompletedTask;
         }
 
-        public Task Refresh(Game game)
+        public Task Update(Game game)
         {
             games[game.Id] = game;
             return Task.CompletedTask;

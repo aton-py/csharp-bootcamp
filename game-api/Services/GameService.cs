@@ -73,7 +73,7 @@ namespace game_api.Services
                 Price = gameInsert.Price,
             };
         }
-        public async Task Refresh(Guid id, double price)
+        public async Task Update(Guid id, double price)
         {
             var gameEntity = await _gameRepository.Get(id);
 
@@ -81,7 +81,7 @@ namespace game_api.Services
                 throw new GameNotFoundException();
             gameEntity.Price = price;
 
-            await _gameRepository.Refresh(gameEntity);
+            await _gameRepository.Update(gameEntity);
         }
 
         public async Task<bool> Remove(Guid id)
