@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aton/src/dotnet/csharp-bootcamp/member-api/member-api.csproj": {}
+  },
+  "projects": {
+    "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/Member.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/Member.Data.csproj",
+        "projectName": "Member.Data",
+        "projectPath": "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/Member.Data.csproj",
+        "packagesPath": "/home/aton/.nuget/packages/",
+        "outputPath": "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/132/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aton/src/dotnet/csharp-bootcamp/member-api/member-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aton/src/dotnet/csharp-bootcamp/member-api/member-api.csproj",
+        "projectName": "member-api",
+        "projectPath": "/home/aton/src/dotnet/csharp-bootcamp/member-api/member-api.csproj",
+        "packagesPath": "/home/aton/.nuget/packages/",
+        "outputPath": "/home/aton/src/dotnet/csharp-bootcamp/member-api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/Member.Data.csproj": {
+                "projectPath": "/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/Member.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/132/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

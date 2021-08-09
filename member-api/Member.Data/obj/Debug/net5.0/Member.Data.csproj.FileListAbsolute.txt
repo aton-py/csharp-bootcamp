@@ -1,0 +1,5 @@
+/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/Debug/net5.0/Member.Data.csproj.AssemblyReference.cache
+/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/Debug/net5.0/Member.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/Debug/net5.0/Member.Data.AssemblyInfoInputs.cache
+/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/Debug/net5.0/Member.Data.AssemblyInfo.cs
+/home/aton/src/dotnet/csharp-bootcamp/member-api/Member.Data/obj/Debug/net5.0/Member.Data.csproj.CoreCompileInputs.cache
