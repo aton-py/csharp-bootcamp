@@ -8,8 +8,6 @@ using game_api.Repositories;
 using game_api.Exeptions;
 using game_api.Entities;
 
-
-
 namespace game_api.Services
 {
     public class GameService : IGameService
