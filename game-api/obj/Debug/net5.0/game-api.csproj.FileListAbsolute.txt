@@ -5,3 +5,5 @@
 /home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.csproj.CoreCompileInputs.cache
 /home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.MvcApplicationPartsAssemblyInfo.cs
 /home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.MvcApplicationPartsAssemblyInfo.cache
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.RazorAssemblyInfo.cache
+/home/aton/src/dotnet/csharp-bootcamp/game-api/obj/Debug/net5.0/game-api.RazorAssemblyInfo.cs
