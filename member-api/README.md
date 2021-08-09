@@ -24,7 +24,7 @@ API stands for Application Programming Interface. It is an
 intermediate software agent that allows two or more applications to 
 interact with each other.
 
-<img />
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/Asp.Net_Core_5.0_Web_API.png"/>
 
 
 Now the next questionis: "What is a web API?"
@@ -47,7 +47,7 @@ Different devices request to Web API and Web API will respond in JSON
 
 Let’s see the below web Api Architecture diagram,
 
-<img />
+<img src="https://github.com/aton-py/csharp-bootcamp/blob/master/assets/images/Asp.Net_Core_5.0_Web_API1.png"/>
 
 This diagram explains the architecture of Web API.
 
