@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using game_api.ViewModel;
 using game_api.InputModel;
 using game_api.Services;
+using game_api.Exeptions;
 using Microsoft.AspNetCore.Http;
 
 namespace game_api.Controllers.V1
