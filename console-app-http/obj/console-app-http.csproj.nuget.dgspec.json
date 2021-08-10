@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/console-app-http.csproj": {}
+  },
+  "projects": {
+    "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/console-app-http.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/console-app-http.csproj",
+        "projectName": "console-app-http",
+        "projectPath": "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/console-app-http.csproj",
+        "packagesPath": "/home/aton/.nuget/packages/",
+        "outputPath": "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/132/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
