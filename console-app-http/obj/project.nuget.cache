@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "56EroU7l4BGUdKOMYJc6RM0MxOSedQwFDOoM4gJx7jBf0Yo/O1y0a6r2dsMLd0PPS128khcSShCBISN/mluXUA==",
+  "dgSpecHash": "67qf8TctyLDp1rW9GFBFdReKnhv6c8fWQgwTX4mFQHqytUeizijJ0H110BifuleX/V66V6NF5H4k3xXUAicXWA==",
   "success": true,
   "projectFilePath": "/home/aton/src/dotnet/csharp-bootcamp/console-app-http/console-app-http.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/aton/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.http/5.0.0/microsoft.extensions.http.5.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/home/aton/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
